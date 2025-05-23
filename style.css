@@ -5,7 +5,6 @@
 }
 html{
     scroll-behavior: smooth;
-    scroll-snap-type: mandatory;
 }
 *{
     margin: 0;
@@ -20,6 +19,8 @@ html{
     background-position: center;
     background-attachment: fixed;
     animation: zoomin 10s infinite linear;
+    background-repeat: no-repeat;
+    
 }
 @keyframes zoomin {
     from{
@@ -72,7 +73,7 @@ svg{
 #inputbar{
     position: relative;
     height: 35px;
-    width: 300px;
+    width: 22vw;
     background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAcdJREFUOE9tk71KHVEUhb+lhU0weYArKVIEfYAgeQgt0tgIsQlWoqIIajAEweu18BYSIsHCxtImINj4GIIhCSmCgqhNmqjBlXv+ZrziFDN7ztln7bXW2Vs89ghksPKm8zf8xzhtCFdROpCWG8iLWEMhwXCCtIb9K2fHxIIVoSRhR7RZpCb2Hei78S0wKNRrWAavJy4VlQozBHOWNmRvW0xj/Q2lBH0WLcwUsCDUck03AQgGDD8k9mzeJlbFnMQO9BmYEH5h9FsyYTlLYMnmPaKBdVHc6PJXPANOO7asCDZqX4PjsGt4iRku+orPASRaGWXrCPkca6w4qezHDmIQ87rQj/RUc4nnzYHgsiN3vLsQzAMfgadCN5VJtdkI9RifIZqYzQjuVD+8GsBPiy3MbGKbXsUs0CpiBntA6CrICilFQojmQS3sT8R+4DrdlvqEm8C0YR940y0zNFHpQbNgWAX+CA4t3ciMGPqBr8ijMjOGdlJXS4g3lq/mOdIo9iuhhvE3iTbmuENopUP1A/gd8CVoUMBIB8vN3huckBGXYyMV49vgSdAT8L9iYnW8zEWl8yF2bNE0eSGsGzZvpIL3Zy1XzyxqxxLT/0QowxmwUDXsAAAAAElFTkSuQmCC);
     background-repeat: no-repeat;
     background-position: 5%;
