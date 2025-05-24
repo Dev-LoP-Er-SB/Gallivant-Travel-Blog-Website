@@ -36,4 +36,3 @@ BlogIcon.addEventListener("mouseenter", () => {
     BlogDropdownContainer.style.display = "none";  
 })
 // dropdown of category & blog list items ends here
-
